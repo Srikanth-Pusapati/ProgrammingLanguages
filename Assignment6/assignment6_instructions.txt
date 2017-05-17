@@ -1,0 +1,10 @@
+Deadline Tuesday May 2, at noon. Note that as usual, this is a team assignment.
+
+Implement in Scala or Swift the PageRank algorithm as described at https://en.wikipedia.org/wiki/PageRank, subject to the following requirements:
+
+1) You will need to test your program for correctness with the graph shown in the Wikipedia picture.
+
+2) You will need to test your program for scalability by generating progressively larger random graphs with an algorithm of your choice - see https://en.wikipedia.org/wiki/Random_graph .
+
+
+
