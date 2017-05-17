@@ -1,0 +1,30 @@
+Write a Haskell program that computes the normal form of a simply-typed lambda term in standard (not de Bruijn) notation. 
+
+You can make use for your program of the code at http://www.cse.unt.edu/~tarau/teaching/GPL/FP/ for checking that a term is typable.
+
+The data type defining a lambda term in standard form is:
+
+data STerm = Vs Int | Ls Int STerm | As STerm STerm deriving (Eq,Show,Read)
+
+and you might want to look at (or adapt) the program at
+
+http://www.cse.unt.edu/~tarau/teaching/GPL/FP/LamEval.hs
+
+that computes the normal form of an arbitrary lambda term in de Bruijn form. 
+
+You can also simplify your program knowing that the evaluation order can be one of your choice for simply-typed terms and that for them the normalization process always terminates.
+
+Deadline Tuesday Feb 21, at noon.
+
+Note that all our assignments are team assignments.
+
+You can verify some of your reductions against an online lambda calculator like
+
+http://www.cburch.com/lambda/
+
+or
+
+https://people.eecs.berkeley.edu/~gongliang13/lambda/
+
+
+
