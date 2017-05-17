@@ -1,0 +1,8 @@
+Write a Haskell function that generates all binary trees with empty leaves of size n. 
+
+Then, given a binary tree, write a function that counts the number of leaves and another function that the number of internal nodes. 
+
+What do you observe about the two results? Write a short proof by induction as a comment added to your program stating that your observation applies to binary trees of any size.
+
+Deadline Thursday Feb 2, at noon.
+
