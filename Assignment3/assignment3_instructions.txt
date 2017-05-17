@@ -1,0 +1,19 @@
+Due Thursday March 9, at noon.
+
+Adapt the combinator parser described at
+
+http://mattwetmore.me/posts/parsing-combinators-with-parser-combinators.html
+
+to work with the data types used for our course at
+
+http://www.cse.unt.edu/~tarau/teaching/GPL/FP/
+
+in modules LambdaTests (and its included modules).
+
+Write a simple REPL (read-eval-print-loop) allowing one to enter a human readable lambda expression and print out the result of its evaluation. You might use our the lambda term printer of our course to print out the result.
+
+The files Parser.hs and Untyped.hs contain the code described at
+
+http://mattwetmore.me/posts/parsing-combinators-with-parser-combinators.html
+
+
