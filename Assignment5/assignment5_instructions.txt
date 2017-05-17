@@ -1,0 +1,30 @@
+Deadline Thursday April 20, at noon. Note that as usual, this is a team assignment.
+
+Implement in Java the PageRank algorithm as described at https://en.wikipedia.org/wiki/PageRank, subject to the following requirements:
+
+1) You will be asked to use components in Java Collections to represent your graph.
+
+2) You will need to test your program for correctness with the graph shown in the Wikipedia picture.
+
+3) You will receive a set of sentences, one per line in a text file. 
+
+You will need to extract the set of all the words in your text file, after converting them to lower case and removing punctuation and stop words, occurring 1 per line in file 
+
+http://www.cse.unt.edu/~tarau/teaching/GPL/HomeWorks/stops.txt . 
+
+Let's call the set of the remaining words your "dictionary".
+
+5) Imagine that each sentence represents a Web page and that each word in it represents links to all other sentences tshat contain that word.
+
+At the same time each word links back to each sentence in which it occurs.
+
+Run PageRank on the graph obtained by linking each sentence to each word in your dictionary and each word to each sentence in which it occurs. To test your program, use the file 
+
+http://www.cse.unt.edu/~tarau/teaching/GPL/HomeWorks/story.txt .
+
+We ask you to print out:
+
+a) the 10 highest ranked sentences, in the order they appear in the text
+b) the 10 highest ranked keywords, ordered by rank, highest ranked first
+
+
