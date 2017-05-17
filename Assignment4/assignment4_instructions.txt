@@ -1,0 +1,17 @@
+Due Thursday April 6, at noon.
+
+Write an operator or DCG-based parser to read in the predicates
+
+male/1, female/1, parent_of/2.
+
+Write a grammar that parses queries about the family database, using the query word "Who" and answers those queries as proper English sentences. 
+
+If you want to parse sentences more easily you might want to use something like:
+
+?- split_string("Joe gives a book to Mary ."," ","",R),maplist(atom_string,Xs,R).
+R = ["Joe", "gives", "a", "book", "to", "Mary", "."],
+Xs = ['Joe', gives, a, book, to, 'Mary', '.'].
+
+An example of query is:
+
+"Who is the cousin of Mary ?"

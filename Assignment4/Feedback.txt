@@ -1,0 +1,4 @@
+1. Execution instructions not provided properly, i.e. data should be executed first but this was not mentioned. (-2)
+2. Output should be in the form of an english sentence but it is not exmaple: parent_of(helen,joe)
+
+parent_of(bill,joe) (-5)
